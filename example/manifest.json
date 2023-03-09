@@ -1,0 +1,31 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Example",
+        "name": "Unofficial Server Editor Types Example",
+        "uuid": "6a38a33c-8a76-4f7c-97ee-ac2e6f9138ab",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 19, 80]
+    },
+    "modules": [
+        {
+            "description": "Example",
+            "type": "script",
+            "uuid": "ac359128-a630-4b69-ad22-aa842f785f02",
+            "version": [1, 0, 0],
+            "language": "javascript",
+            "entry": "scripts/main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server-editor",
+            "version": "0.1.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.2.0-beta"
+        }
+    ],
+    "capabilities": ["editorExtension"]
+}

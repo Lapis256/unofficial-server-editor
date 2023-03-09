@@ -1,0 +1,6 @@
+{
+    "dependencies": {
+        "@minecraft/server": "1.2.0-beta.1.19.80-preview.20",
+        "@minecraft/server-editor": "github:Lapis256/unofficial-server-editor"
+    }
+}
